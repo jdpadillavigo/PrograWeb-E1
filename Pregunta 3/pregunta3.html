@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pregunta3.css">
+    <script defer src="./pregunta3.js"></script>
+</head>
+<body>
+    <div class="page">
+        <h1>Formulario de Inscripción</h1>
+        <div class="container">
+            <div class="container__info1">
+                <div class="container__info1__input">
+                    <label>Nombre</label>
+                    <input id="name" type="text">
+                </div>
+                <div class="container__info1__input">
+                    <label>Edad</label>
+                    <input id="age" type="text">
+                </div>
+            </div>
+            <div class="container__info2">
+                <label>Carrera</label>
+                <select>
+                    <option value="sistemas">Ing. Sistemas</option>
+                    <option value="industrial">Ing. Industrial</option>
+                    <option value="civil">Ing. Civil</option>
+                    <option value="mecatronica">Ing. Mecatrónica</option>
+                    <option value="ambiental">Ing. Ambiental</option>
+                </select>
+            </div>
+            <div class="container__save">
+                <button id="but-save" type="submit">Guardar</button>
+            </div>
+            <div id="message"></div>
+        </div>
+    </div>
+</body>
+</html>
