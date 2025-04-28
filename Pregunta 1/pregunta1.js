@@ -1,6 +1,8 @@
 const butAddOnClick = function() {
     const inputArea = document.getElementById("input-area")
     inputArea.setAttribute("class", "show-menu")
+    // const newLi = document.createElement('li');
+    // newLi.textContent = input.value;
 }
 
 const main = function() {
