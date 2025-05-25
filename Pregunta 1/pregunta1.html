@@ -8,14 +8,17 @@
     <script defer src="./pregunta1.js"></script>
 </head>
 <body>
-    <div id="list">
+    <div id="list" style="display: none;">
         <ul id="menu-list">
         </ul>
     </div>
     <button id="but-menu" type="button">Menu</button>
     <div>
-        <input type="text" id="input-area">
+        <input id="input-text" type="text">
         <button id="but-add" type="button">Agregar</button>
     </div>
+    <p id="message" style="display: none; color: red;">
+        ¡Falta rellenar el campo de texto!
+    </p>
 </body>
 </html>

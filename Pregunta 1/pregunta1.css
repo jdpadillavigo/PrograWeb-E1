@@ -1,3 +1,8 @@
+#but-menu,
+#but-add {
+    cursor: pointer;
+}
+
 #but-menu {
     margin-bottom: 15px;
 }
